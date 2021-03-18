@@ -220,6 +220,7 @@ const App = {
     } catch (error) {
       this.showErrorMessage(String(error).replace('Error:', ''));
       console.error(error);
+      return false;
     }
   },
 
